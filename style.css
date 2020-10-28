@@ -1,0 +1,16 @@
+.box{
+    width: 400px;
+    height: 200px;
+    border: 5px solid orange;
+    overflow: scroll;
+}
+.box2{
+    border: 5px solid springgreen;
+    width: 400px;
+    height: 200px;
+    overflow: scroll;
+}
+.picture{
+    width: 100px;
+    height: 100px;
+}

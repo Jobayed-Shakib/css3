@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img{
+            height: 500px;
+            width: 500px;
+        }
+        .continer{
+            display: flex;
+            max-width: 1200px;
+            margin: 0 auto;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+        .food{
+            border: 3px solid yellow;
+            border-radius: 30px;
+            margin: 30px;
+            width: 350px;
+        }
+        .food img{
+            width: 100%;
+        }
+        @media (max-width: 760px) {
+           .continer .food{
+            background-color: red;
+            flex-direction: column;
+           }
+            
+        }
+        @media (min-width: 1200px) {
+            .continer .food{
+                background-color: yellow;
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="continer">
+        <div class="food">
+            <img src="images/food.jpg" alt="">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, voluptas dicta quaerat veniam beatae id sed consequatur soluta at numquam!</p>
+        </div>
+        <div class="food">
+            <img src="images/food.jpg" alt="">
+            <p>Deleniti consequatur eligendi dolores veritatis doloremque, eos eum illo maiores. Non dolorum quisquam natus quia sunt commodi nulla similique incidunt!</p>
+        </div>
+        <div class="food">
+            <img src="images/food.jpg" alt="">
+            <p>Aperiam, labore vero esse repudiandae alias molestiae eos, ducimus minima quisquam molestias incidunt laborum voluptatibus consequuntur maiores eveniet error corrupti!</p>
+        </div>
+        <div class="food">
+            <img src="images/food.jpg" alt="">
+            <p>Voluptatem officia omnis rem ducimus pariatur recusandae, ex inventore nihil quis. Dolorum accusantium adipisci doloremque harum! Culpa quis magnam amet?</p>
+        </div>
+        <div class="food">
+            <img src="images/food.jpg" alt="">
+            <p>Dicta culpa perspiciatis tempora labore illo recusandae quia cumque nesciunt veritatis adipisci rerum amet aperiam molestiae aut ad, dignissimos distinctio.</p>
+        </div>
+        <div class="food">
+            <img src="images/food.jpg" alt="">
+            <p>Alias ducimus labore quod nulla maiores asperiores consectetur vero mollitia blanditiis, hic quas reprehenderit aperiam, distinctio impedit, numquam cum voluptate.</p>
+        </div>
+    </div>
+</body>
+</html>
